@@ -1,0 +1,33 @@
+names <- c("ndjknsfkf", "fsdbchdach", "fsndsa")
+names
+thislist <- list("apple", "banana", "cherry")
+
+thislist
+length(thislist)
+# Create a matrix
+thismatrix <- matrix(c(1,2,3,4,5,6), nrow = 3, ncol = 2)
+
+
+thismatrix
+
+thismatrix <- matrix(c("apple", "banana", "cherry", "orange"), nrow = 2, ncol = 2)
+
+thismatrix
+
+thisarray <- c(1:24)
+thisarray
+
+Data_Frame <- data.frame (
+  Training = c("Strength", "Stamina", "Other"),
+  Pulse = c(100, 150, 120),
+  Duration = c(60, 30, 45)
+)
+
+Data_Frame
+
+# Create a factor
+music_genre <- factor(c("Jazz", "Rock", "Classic", "Classic", "Pop", "Jazz", "Rock", "Jazz"))
+
+# Print the factor
+music_genre
+
